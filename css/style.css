@@ -27,6 +27,7 @@ header{
 h1{
   color: #7851A9;
   text-align: center;
+  font-size: 2em;
 }
 
 body{
@@ -36,4 +37,5 @@ body{
   }
 main {
     display: block;
+    text-align: center;
 }
