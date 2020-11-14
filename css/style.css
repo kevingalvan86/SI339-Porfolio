@@ -29,7 +29,23 @@ header{
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
 }
+a.skip{
+  position: absolute;
+  top: -40px;
+}
+div.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+div.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
+}
 h1{
 color: #7851A9;
 text-align: center;
@@ -37,6 +53,11 @@ font-size: 2em;
 }
 p{
   text-align: center;
+}
+img{
+  object-fit: contain;
+  max-height: 100%;
+  max-width: 100%;
 }
 main {
     display: block;
