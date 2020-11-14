@@ -1,0 +1,25 @@
+
+header{
+    background: #fff;
+    border-top: 3px solid #7851A9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+  }
+  .nav_links{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-decoration-color: #7851A9;
+  }
+
+  body{
+    font-family: 'Raleway', sans-serif; 
+    margin: 0;
+    padding: 0;
+  }
+main {
+    display: block;
+}
