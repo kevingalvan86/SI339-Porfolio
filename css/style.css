@@ -63,6 +63,29 @@ img{
   max-height: 100%;
   max-width: 100%;
 }
+
+
+
+
+.bios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.profile{
+    width: 100%;
+}
+
+
+
 main {
     display: block;
 }
