@@ -1,3 +1,4 @@
+@media only screen and (max-width:600px){
 
 body{
     font-family: 'Raleway', sans-serif; 
@@ -109,4 +110,5 @@ main {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
 }
