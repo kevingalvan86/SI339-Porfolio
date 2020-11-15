@@ -34,7 +34,7 @@ nav ul{
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
 }
-a.active-page
+.nav_item a.active-page
 {
   background-color: #7851A9;
   color: #fff;
@@ -68,8 +68,8 @@ p{
 }
 img{
   object-fit: contain;
-  max-height: 550px;
-  max-width: auto;
+  max-height: auto;
+  max-width: 600px;
 }
 
 
