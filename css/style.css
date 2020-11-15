@@ -33,6 +33,13 @@ nav ul{
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted;
 }
+a.active-page
+{
+  background-color: #7851A9;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
 a.skip{
   position: absolute;
   top: -40px;
