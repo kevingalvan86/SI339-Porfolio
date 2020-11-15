@@ -49,6 +49,8 @@ div.container{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 600px;
+  margin: 0 auto;
 }
 div.info{
   display: flex;
