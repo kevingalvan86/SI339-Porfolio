@@ -19,7 +19,7 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-height: 150px;
+  height: 150px;
   width: 100%;
   margin: 0;
 }
@@ -27,11 +27,11 @@ header div {
   display: flex;
   flex-direction: row;
   justify-content: space-between ;
-  max-height: 75px;
+  height: 75px;
   width: 100%;
 }
 nav{
-  max-height: 75px;
+  height: 75px;
   background-color: blueviolet;
 }
 nav ul li{
@@ -83,8 +83,12 @@ p{
 }
 img{
   object-fit: contain;
-  max-height: auto;
-  max-width: 600px;
+  max-height: 100%;
+  max-width: 100%;
+}
+.logo{
+  object-fit: fill;
+  height: 75px;
 }
 
 
