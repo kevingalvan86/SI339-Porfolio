@@ -36,7 +36,9 @@ nav{
 }
 
 nav ul li{
+  display: flex;
   list-style: none;
+  align-items: center;
 }
 .nav_links{
   display: flex;
