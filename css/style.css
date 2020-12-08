@@ -1,4 +1,4 @@
-@media only screen and (max-width:600px){
+
   .container{
     display: flex;
     align-items: center;
@@ -138,7 +138,153 @@ main {
   vertical-align: middle;
   width: 100%;
 }
-}
+
 @media only screen and (min-width:600px){
+/* this is for tablets  */
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+body{
+font-family: "Hind", "Avenir", "Helvetica", arial;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 110px;
+width: 100%;
+margin: 0;
+}
+header div {
+display: flex;
+flex-direction: row;
+justify-content: space-between ;
+height: 75px;
+width: 100%;
+}
+nav{
+height: 35px;
+background-color: blueviolet;
+}
+
+nav ul li{
+display: flex;
+list-style: none;
+align-items: center;
+}
+.nav_links{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin: 0;
+padding: 0;
+}
+ul.nav_links {
+margin: 0;
+height: 100%;
+}
+.nav_item a{
+color: white;
+text-decoration: none;
+}
+.nav_item a:hover,.nav_item a:focus{
+color: #7851A9;
+text-decoration: underline;
+-webkit-text-decoration-style: dotted;
+        text-decoration-style: dotted;
+}
+.nav_item a.active-page
+{
+color: #7851A9;
+text-decoration-color: #7851A9;
+text-decoration: underline;
+opacity: 10;
+font-weight: bold;
+}
+a.skip{
+position: absolute;
+top: -40px;
+}
+div.info{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+h1{
+color: #7851A9;
+text-align: center;
+font-size: 1.5em;
+font-weight: 500;
+}
+p{
+text-align: center;
+}
+img{
+object-fit: contain;
+max-height: 100%;
+max-width: 100%;
+}
+.logo{
+object-fit: fill;
+height: 75px;
+}
+
+
+
+
+.bios{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;  
+}
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+
+}
+
+
+
+
+main {
+  display: block;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+.column {
+flex: 100%;
+max-width: 100%;
+}
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  /* for tablets */
+}
+@media only screen and (min-width: 768px) {
+  /* for desktops  */
   
 }
