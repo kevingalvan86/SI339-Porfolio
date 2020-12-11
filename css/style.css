@@ -1,3 +1,8 @@
+html, body, main{
+  margin: 0;
+  height: 100%;
+  font-family: "Hind", "Avenir", "Helvetica", arial;
+}
 
   .container{
     display: flex;
@@ -5,16 +10,12 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    
+    
     margin: 0;
   }
   
-body{
-  font-family: "Hind", "Avenir", "Helvetica", arial;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-  
+
 header{
   display: flex;
   flex-direction: column;
@@ -54,11 +55,6 @@ nav ul li a{
   font-size: 1.6em;
   font-family: 'Lato', sans-serif;
 }
-ul.nav_links {
-  margin: 0;
-  height: 100%;
-  
-}
 
 .nav_item a:hover,.nav_item a:focus{
   color: #e0cef7e8;
@@ -77,13 +73,6 @@ ul.nav_links {
 a.skip{
   position: absolute;
   top: -40px;
-}
-div.info{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
 }
 h1{
 color: #7851A9;
@@ -110,6 +99,8 @@ div.container2{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  height: 100%;
+  width: 100%
 }
 
 
@@ -124,15 +115,20 @@ div.container2{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    /* padding: 0 30px; */
+    
     
   
 }
+.card p{
+  padding: 0 30px;
+}
+div.card{
+  height: 100%;
+  width: 100%;
+  
 
 
-
-
-main {
-    display: block;
 }
 
 .row {
@@ -161,6 +157,9 @@ main {
   nav{
     height: 45px;
   }
+  .card{
+    flex: 0 50%;
+  }
   div.parent-container{
     display: flex;
     flex-direction: row;
@@ -180,14 +179,7 @@ main {
     
     
   }
-  div.card{
-    flex: 0 50%;
-    height: 100%;
-    width: 100px;
-    
-
-
-  }
+  
 }
 @media only screen and (min-width: 768px) {
   /* for desktops  */
