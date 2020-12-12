@@ -229,13 +229,11 @@ footer>p{
   div.container2{
     flex-direction: row;
   }
-    /* .card{
-      flex: 0 50%;
-    } */
   div.photos{
     -moz-column-count:    5;
     -webkit-column-count: 5;
     column-count:         5;
+    column-gap: 0px;
   }
   .flip-card{
     width: 250px
