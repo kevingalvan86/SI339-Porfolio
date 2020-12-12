@@ -80,6 +80,7 @@ color: #7851A9;
 text-align: center;
 font-size: 1.5em;
 font-weight: 500;
+align-self: center;
 }
 p{
   text-align: center;
@@ -156,8 +157,14 @@ div.container2{
   padding: 0 30px;
 }
 div.card{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   height: 100%;
   width: 100%;
+  padding: 0 30px
+  
   
 
 
@@ -231,29 +238,12 @@ div.photos{
   
 }
 @media only screen and (min-width: 768px) {
-  main#skip.about{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .bios{
-    display: flex;
-    flex-direction: row;
+  div.container2{
+    flex-direction: column;
   }
     .card{
       flex: 0 50%;
     }
-  
-  main#skip.about{
-    display: flex;
-    height: 100%;
-  width: 100%;
-  border: 1px solid black;
-  flex-wrap: wrap;
-  flex:0 30%
- 
-  }
   div.photos{
     -moz-column-count:    5;
     -webkit-column-count: 5;
