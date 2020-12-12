@@ -226,7 +226,7 @@ footer>p{
 }
 @media only screen and (min-width: 768px) {
   div.container2{
-    flex-direction: column;
+    flex-direction: row;
   }
     /* .card{
       flex: 0 50%;
@@ -244,9 +244,22 @@ footer>p{
     transition: transform 1.5s;
     
   }
+  h1{
+    font-size: 2em;
+  }
+  div.container2{
+    align-items: flex-start;
+  }
+  .card {
+    
+    flex: 0 25%;
+}
+div#index-title{
+  flex: 0 100%;
+}
+
 }
 @media (prefers-reduced-motion: reduce){
   .flip-card{
     transform: none;
   }
-}
