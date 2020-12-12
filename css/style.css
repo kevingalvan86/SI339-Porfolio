@@ -88,7 +88,7 @@ img{
   max-height: 100%;
   max-width: 100%;
 }
-.logo{
+#logo{
   object-fit: fill;
   height: 100%;
 }
